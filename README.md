@@ -1,5 +1,7 @@
-# Typescript Nodejs Mongodb CRUD
-![](docs/screenshot.png)
+# Dentist client and appointment registry :
+Insert name,surname, age and phone of client
+With add button in client you can book an appointment
+
 
 # Installation
 ```bash
