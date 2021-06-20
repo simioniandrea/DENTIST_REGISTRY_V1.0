@@ -7,7 +7,7 @@ Using typescript(express) and MongoDB
 - With add button in the client window you can book an appointment
 - Appointment format: 
   - date : gg/mm/aa 
-  - hour : xx:xx- yy:yy (for example 9:00-10:00) 
+  - hour : xx:xx-yy:yy (for example 9:00-10:00) 
 - Clients and appointments are editable
 
 
