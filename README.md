@@ -1,5 +1,5 @@
 # Dentist client and appointment registry
-using typescript(express) and MongoDB
+Using typescript(express) and MongoDB
 
 ## Getting Started
 
