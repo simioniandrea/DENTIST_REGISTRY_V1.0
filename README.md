@@ -11,7 +11,7 @@ Using typescript(express) and MongoDB
 - Clients and appointments are editable
 
 
-# Installation
+### Installation
 ```bash
 npm install
 npm run build
