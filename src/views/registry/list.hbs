@@ -1,0 +1,27 @@
+<div class="row">
+
+    {{#each clients}}
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h3>{{name}}</h3>
+                <p>{{surname}}</p>
+                <p>{{age}}</p>
+                <p>{{phone}}</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+                <a href="/registry/delete/{{_id}}" class="btn btn-danger">
+                    Delete
+                </a>
+                <a href="/registry/edit/{{_id}}" class="btn btn-secondary">
+                    Edit
+                </a>
+                <a href="/registry/add/{{_id}}/appuntamenti" class="btn btn-secondary">
+                    add 
+                </a>                
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+

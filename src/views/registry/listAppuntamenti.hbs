@@ -1,0 +1,25 @@
+<div class="row">
+
+    {{#each appointments}}
+    <div class="col-md-3">
+        <div class="card">
+            <div class="card-body">
+                <h3>{{cliente}}</h3>
+                <p>{{name}}</p>
+                <p>{{surname}}</p>
+                <p>{{date}}</p>
+                <p>{{hour}}</p>
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center">
+                <a href="/registry/deleteAppointments/{{_id}}" class="btn btn-danger">
+                    Delete
+                </a>
+                <a href="/registry/editAppointments/{{_id}}" class="btn btn-secondary">
+                    Edit
+                </a>              
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</div>
+

@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card">
+            <div class="card-body">
+                <form action="/registry/edit/{{client._id}}" method="POST">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Write your title" value="{{client.name}}"
+                            class="form-control" autofocus>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="surname" class="form-control" value="{{client.surname}}"
+                            placeholder="Write a description">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="age" class="form-control" value="{{client.age}}"
+                            placeholder="Write a description">
+                    </div> 
+                    <div class="form-group">
+                        <input type="text" name="phone" class="form-control" value="{{client.phone}}"
+                            placeholder="Write a description">
+                    </div>                                       
+                    <button type="submit" class="btn btn-primary btn-block">
+                        Update
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
