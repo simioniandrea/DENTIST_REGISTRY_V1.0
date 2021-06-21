@@ -10,6 +10,7 @@ Using typescript(express) and MongoDB
 - Appointment format: 
   - date : gg/mm/aa 
   - hour : xx:xx-yy:yy (for example 9:00-10:00) 
+- Check in the insertion of the appointment to verify if there is already one on that date and hour
 - Clients and appointments are editable
 
 
