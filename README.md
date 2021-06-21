@@ -12,6 +12,7 @@ Using typescript(express) and MongoDB
 
 
 ## Installation
+In terminal:
 ```bash
 npm install
 npm run build
