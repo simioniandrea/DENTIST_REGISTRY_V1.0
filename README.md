@@ -1,5 +1,5 @@
 # Dentist clients and appointments registry
-Using typescript(express) and MongoDB.
+Using typescript(express) and MongoDB
 ![](screenshots/home.png)
 ![](screenshots/clients.png)
 ![](screenshots/appointments.png)
