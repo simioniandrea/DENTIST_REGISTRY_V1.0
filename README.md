@@ -12,7 +12,7 @@ Using typescript(express) and MongoDB
 
 
 ## Installation
-In terminal:
+In VSCode open terminal and digit:
 ```bash
 npm install
 npm run build
