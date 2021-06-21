@@ -1,4 +1,4 @@
-# Dentist clients and appointment registry
+# Dentist clients and appointments registry
 Using typescript(express) and MongoDB
 
 ## Getting Started
