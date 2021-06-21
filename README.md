@@ -3,7 +3,7 @@ Using typescript(express) and MongoDB
 
 ## Getting Started
 
-- Insert name,surname, age and phone of client
+- Insert name, surname, age and phone of client
 - With add button in the client window you can book an appointment
 - Appointment format: 
   - date : gg/mm/aa 
